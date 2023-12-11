@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><br/>
+    
+<title>Login Page</title>
+    <link rel="stylesheet" href="style.css"  type="text/css">
+    <script defer src="stecscript.js"></script>
+</head>
+<body style="background-image: url(bg3.jpeg); background-repeat: no-repeat; background-size: 100%;">
+    <h1 style="text-align: center;">Login</h1><br>
+    <div id="error"></div>
+    <form id="form" action="/" method="GET">
+    <div style="text-align: center;">
+        <label for="name"><b>USERNAME :</b> </label>
+        <input id="name" type="text" placeholder="Enter the username" onkeyup="num(this)" required><br><br>
+
+    </div> 
+    <div style="text-align: center;">
+        <label for="password"><b>PASSWORD :</b></label>
+        <input id="password" type="password" placeholder="Enter the password"  required><br><br><br>
+        
+    </div>
+    <div style="text-align: center;">
+    <a href="forgetpass.html">Forget password?</a>
+    <button type="submit" onclick="login()">Login</button> 
+    <button type="reset" onclick="confirm('Do you want to cancel')">Cancel</button>
+    </form>
+    </div>
+</body>
+</html>
+

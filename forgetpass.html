@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forget passoword page</title>
+    <script defer src="stescript2.js"></script>
+    <link rel="stylesheet" href="style.css"  type="text/css">
+</head>
+<body>
+    <div id="error">
+    </div>
+   <form id="form1" action="/" method="GET">
+    <h1>Forget Password</h1>
+    <div>
+        <label for="mail">EMAIL ID</label>
+        <input id="mail" type="email" placeholder="Enter the email id" required><br><br>
+    </div>
+
+    <div>
+        <label for="mob">MOBILE NO.</label>
+        <input id="mob" type= “text” placeholder="Enter mobile no." onkeyup="numberonly(this)" required><br><br>
+    </div>
+
+    <button type="submit" onclick="s()">SUBMIT</button> 
+
+   </form>
+</body>
+</html>

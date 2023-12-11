@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Etihad Airline Reservation System</title>
+</head>
+<body style="background: url(bg1.jpeg); background-size: 100%">
+<center>
+	<h1>Welcome To Etihad Airline Booking</h1><br/><br/>
+	<b>First Name : </b><input type="text" size="30" value="" placeholder="Enter your name" required><br/><br/>
+	<b>Last Name : </b><input type="text" size="30" value="" placeholder="Enter Last name" required><br/><br/>
+	<b>Phone Number : </b><input type="text" size="30" value="" placeholder="Enter phone numer" required><br/><br/>
+	<b>Email ID : </b><input type="email" size="30" value="" placeholder="Enter email id" required><br/><br/>
+
+	<h2>Destination</h2>
+
+	<b>FROM : </b>
+	<select name="Destination">
+		<option value="India">India</option>
+		<option value="America">America</option>
+		<option value="UK">UK</option>
+		<option value="UAE">UAE</option>
+		<option value="Canada">Canada</option>
+	</select>
+
+	<b>TO : </b>
+	<select name="Destination">
+		<option value="India">India</option>
+		<option value="America">America</option>
+		<option value="UK">UK</option>
+		<option value="UAE">UAE</option>
+		<option value="Canada">Canada</option>
+	</select>
+
+	<h2>Passenger</h2>
+	<b>Adult : </b>
+	<select name="Passenger">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+	</select>
+
+	<b>Child : </b>
+	<select name="Passenger">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+	</select>
+
+	<b>Senior Citizen : </b>
+	<select name="Passenger">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+	</select>
+
+	<h2>Travelling Category (Special)</h2><br/>
+	<input type="radio" name="Travelling Category" value="Students">Students
+	<input type="radio" name="Travelling Category" value="Defence">Defence
+	<br/><br/>
+	
+	<button type="submit" value="Submit" onclick="confirm('Please continue with the link provided in your registered email id')"><b>Submit</b></button>
+	<button type="reset" value="Reset"><b>Reset</b></button>
+	
+</center>
+</body>
+</html>
+
